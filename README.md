@@ -33,6 +33,9 @@ result1, result2 = swap_values(value1, value2)
 print(f"The first value after swapping: {result1}")
 print(f"The second value after swapping: {result2}")
 ```
+## OUTPUT:
+![output1](https://github.com/23004205/Swapping-two-values/assets/138971114/348e0384-e387-4fd5-8452-9c215905e255)
+
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
