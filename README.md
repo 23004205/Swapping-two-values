@@ -19,19 +19,16 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-swapping of two variables
-devloped by: singamala venkata sai kumar reddy
-reference number:23004205
-def swap_values(a, b):
-    a = float(a)
-    b = float(b)
-    a, b = b, a
-    return a, b
-value1 = input("Enter the first value: ")
-value2 = input("Enter the second value: ")
-result1, result2 = swap_values(value1, value2)
-print(f"The first value after swapping: {result1}")
-print(f"The second value after swapping: {result2}")
+#Program to swap two values.
+#Developed by: singamala venkata sai kumar reddy
+#RegisterNumber:23004205
+def swap_values(a,b):
+    a,b=b,a
+    return(a,b)
+value1=int(input())
+value2=int(input())
+value1,value2=swap_values(value1,value2)
+print("Swapped values are:",value1,value2)
 ```
 ## OUTPUT:
 ![output1](https://github.com/23004205/Swapping-two-values/assets/138971114/348e0384-e387-4fd5-8452-9c215905e255)
